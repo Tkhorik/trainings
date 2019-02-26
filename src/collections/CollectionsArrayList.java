@@ -37,6 +37,7 @@ public class CollectionsArrayList {
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(i);
         }
+
         System.out.println(arrayList);
         System.out.println(arrayList.get(50));
         System.out.println(arrayList.size());
@@ -49,6 +50,7 @@ public class CollectionsArrayList {
         anyListFromCollection = new LinkedList<>();
         anyListFromCollection = arrayList;
         anyListFromCollection.clear();
-        System.out.println(anyListFromCollection+" = anyListFromCollection");
+        anyListFromCollection.equals(arrayList);
+        System.out.println(anyListFromCollection + " = anyListFromCollection");
     }
 }
