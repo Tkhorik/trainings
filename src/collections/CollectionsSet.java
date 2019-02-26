@@ -22,10 +22,11 @@ public class CollectionsSet {
         myTreeHashSet.add(3);
 
 
+        System.out.println("HashSet вернет хаотично");
         myIntegersHeshsetSet.forEach(System.out::println);
-        System.out.println();
+        System.out.println("LinkedHashSet вернет в порядке первоначального добавления");
         myLikedHashSet.forEach(System.out::println);
-        System.out.println();
+        System.out.println("TreeSet вернет в natural order");
         myTreeHashSet.forEach(System.out::println);
 
     }
