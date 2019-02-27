@@ -1,7 +1,5 @@
 package collections;
 
-import org.omg.CORBA.INTERNAL;
-
 import java.util.HashSet;
 import java.util.Set;
 
