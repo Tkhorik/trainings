@@ -35,7 +35,13 @@ public class MultithreadingSynchronized {
         System.out.println(counter);
     }
 
-    private synchronized void incrementValue() {
+/*    private synchronized void incrementValue() {
         counter += 1;
+    } */
+
+    private void incrementValue() {
+        synchronized (this) {
+            counter += 1;
+        }
     }
 }
